@@ -1,0 +1,63 @@
+/* Reset
+Lo utilizamos para resetear los estilos que el navegador aplica por default
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos globales */
+
+/* Header */
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Navbar */
+nav ul {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+footer nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Index */
+
+#banner {
+    text-align: center; /* no es lo apropiado */
+}
+
+#banner a {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    text-decoration: none;
+}
+
+#servicios {
+    background-color: rgb(235, 235, 235);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
+
+.card h3 {
+    font-style: italic;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 12px;
+}
